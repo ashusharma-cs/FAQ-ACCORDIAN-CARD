@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main{
+    background: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 990px;
+    height: 90vh;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    /* overflow: hidden; */
+
+}
+.center #box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 72px;
+    top: 253px;
+    z-index: 2;
+}
+.center .pic{
+    width: 500px;
+    height: 100%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+.pic img{
+    width: 480px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+.pic img:nth-child(1){
+    left: -479px;
+    top: -250px;
+    width: 900px;
+    height: 900px;
+}
+.pic img:nth-child(2){
+    bottom: 870px;
+    left: -80px;
+}
+/* .pic img:nth-child(1){
+    top: 80px;
+} */
+
+.content{
+    /* border: 2px solid hotpink; */
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .subc{
+    /* border-bottom: 1px solid black; */
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subc .c1{
+    /* border-bottom: 2px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.subc a{
+    color: hsl(237, 12%, 33%);
+    text-decoration: none;
+}
+.content .c1:hover{
+    cursor: pointer;
+
+}
+.subc #c2{
+    /* border: 2px solid red; */
+    color: hsl(240, 6%, 50%);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    /* transition: all 5s; */
+}
+.subc #c3{
+    /* border: 2px solid red; */
+    color: hsl(240, 6%, 50%);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    /* transition: all 5s; */
+}
+.subc #c4{
+    /* border: 2px solid red; */
+    color: hsl(240, 6%, 50%);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    /* transition: all 5s; */
+}
+.subc #c5{
+    /* border: 2px solid red; */
+    color: hsl(240, 6%, 50%);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    /* transition: all 5s; */
+}
+.subc #c6{
+    /* border: 2px solid red; */
+    color: hsl(240, 6%, 50%);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    display: none;
+    /* transition: all 5s; */
+}
+#c2:target{
+    display: block;
+    
+    
+}
+#c3:target{
+    display: block;   
+}
+#c4:target{
+    display: block;   
+}
+#c5:target{
+    display: block;   
+}
+#c6:target{
+    display: block;   
+}
+/* .subc #para1{
+    display: none;
+} */
